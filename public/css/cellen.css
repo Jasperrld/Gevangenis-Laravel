@@ -1,0 +1,44 @@
+.cellen-container {
+    display: flex;
+}
+
+.cel {
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+.cel-red {
+    background-color: red;
+    color: white;
+}
+
+/* Style for the container */
+.cel-info-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1b125;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit-link {
+    text-decoration: none;
+}
+
+.edit-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #45a049;
+}

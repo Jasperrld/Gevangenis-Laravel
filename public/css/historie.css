@@ -1,0 +1,30 @@
+.historie-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: flex-start;
+
+}
+
+
+.historie-container h1 {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.historie-blok1 {
+    margin-left: 5%
+}
+
+.historie-blok1 img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    max-width: 80%;
+}
+
+.historie-blok2 {
+    margin-left: 5%;
+    width: 50%;
+}

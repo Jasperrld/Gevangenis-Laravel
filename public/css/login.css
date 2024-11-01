@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#login {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+}
+
+.frmlogin .form-group {
+    margin-bottom: 15px;
+}
+
+.frmlogin label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.frmlogin input[type="email"],
+.frmlogin input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.frmlogin .btn-login {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(241, 177, 37, 1) 0%, rgba(241, 112, 37, 1) 37%, rgba(159, 46, 18, 1) 100%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.frmlogin .btn-login:hover {
+    background-color: #45a049;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.forgot-password a {
+    color: #3490dc;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.input-error {
+    color: red;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.session-status {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

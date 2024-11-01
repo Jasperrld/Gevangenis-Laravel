@@ -1,0 +1,144 @@
+.hoornhek_body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* CSS for grid layout and responsiveness */
+.arrestanten_container {
+    overflow-x: auto;
+}
+
+/* CSS for making the table smaller */
+#customers {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#customers th,
+#customers td {
+    padding: 6px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    word-break: break-word;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Apply responsive styles for smaller screens */
+    .arrestanten_container {
+        overflow-x: auto;
+        /* Enable horizontal scrolling */
+    }
+
+    #customers th,
+    #customers td {
+        padding: 4px;
+        font-size: 10px;
+    }
+}
+
+
+.btn-edit {
+    color: green;
+}
+
+.btn-delete {
+    color: red;
+}
+
+.btn-info {
+    color: aqua;
+}
+
+.head {
+    background-color: rgba(208, 219, 245, 1);
+}
+
+.Terug {
+    background-color: #2cde3b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Terug:hover {
+    background-color: #86f43d;
+}
+
+.Terug a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hoornhek_footer {
+    background: rgb(241, 177, 37);
+    background: linear-gradient(90deg, rgba(241, 177, 37, 1) 0%, rgba(241, 112, 37, 1) 37%, rgba(159, 46, 18, 1) 100%);
+    margin-top: auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.btn-edit {
+    color: green;
+}
+
+.btn-delete {
+    color: red;
+}
+
+.btn-info {
+    color: aqua;
+}
+/* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.pagination .page-link {
+    padding: 0.5rem 0.75rem;
+    margin: 0 0.25rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+}
+
+.pagination .page-link:hover {
+    background-color: #f0f0f0;
+    color: #000;
+
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+/* Style for changes cell */
+#changes {
+    max-width: 400px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.changes-content {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
